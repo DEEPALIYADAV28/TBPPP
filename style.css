@@ -1,0 +1,41 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.bgimage {
+    background-image: url('download.jpeg');  
+    height: 70vh; 
+    width: 100vw; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+nav{
+    display: flex;
+    padding:20px;
+    gap:2rem;
+    background-color: rgba(250, 235, 215, 0.342);
+  
+
+}
+.upper{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+            color: white; 
+            font-size: 40px; 
+            padding:10px;
+            background-color: black;
+            text-align: center;
+            width:500px;
+}
+
+
+
+
